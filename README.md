@@ -3,7 +3,10 @@
 
 
 ### Follwoing are the used libraries
-os, glob, psycopg2, pandas
+os<br />
+glob<br />
+psycopg2<br />
+pandas<br />
 
 
 ### Project Motivation
@@ -12,7 +15,7 @@ Following are tables, which were created during the project:
 
 #### Fact table:
 songplays: [songplay_id, start_time, user_id, level, song_id, <br />
-           artist_id, session_id, location, user_agent]
+                                 artist_id, session_id, location, user_agent]
 
 #### Dimension tables:
 users:     [user_id, first_name, last_name, gender, level]<br />
