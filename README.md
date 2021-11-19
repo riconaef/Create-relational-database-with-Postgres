@@ -29,7 +29,7 @@ sql_queries.p<br />
 create_tables.p<br />
 etl.py
 
-To run, first the "create_tables.py" needs to be run which creates the tables. After, "etl.py" can be run, which fills the table with data with an etl-pipeline. 
+To run, first the "create_tables.py" needs to be run which creates the tables. The user and password needs to be updated. After, "etl.py" can be run, which fills the table with data with an etl-pipeline. 
 
 
 ### Licensing, Authors, Acknowledgements
