@@ -11,22 +11,19 @@ A startup called Sparkify, needs to have a relational database to perform querie
 Following are tables, which were created during the project: 
 
 #### Fact table:
-songplays: [songplay_id, start_time, user_id, level, song_id, 
-                                artist_id, session_id, location, user_agent]
+songplays: [songplay_id, start_time, user_id, level, song_id, <br />
+           artist_id, session_id, location, user_agent]
 
 #### Dimension tables:
-users:     [user_id, first_name, last_name, gender, level]\n
-songs:     [song_id, title, artist_id, year, duration]
-
-artists:   [artist_id, name, location, latitude, longitude]
-
-time:      [start_time, hour, day, week, month, year, weekday]
-
+users:     [user_id, first_name, last_name, gender, level]<br />
+songs:     [song_id, title, artist_id, year, duration]<br />
+artists:   [artist_id, name, location, latitude, longitude]<br />
+time:      [start_time, hour, day, week, month, year, weekday]<br />
 
 
 ### File Descriptions
-sql_queries.p; 
-create_tables.p; 
+sql_queries.p<br />
+create_tables.p<br />
 etl.py
 
 To run, first the "create_tables.py" needs to be run which creates the tables. After, "etl.py" can be run, which fills the table with data with an etl-pipeline. 
