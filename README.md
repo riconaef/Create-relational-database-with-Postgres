@@ -25,8 +25,8 @@ time:      [start_time, hour, day, week, month, year, weekday]<br />
 
 
 ### File Descriptions
-sql_queries.p<br />
-create_tables.p<br />
+sql_queries.py<br />
+create_tables.py<br />
 etl.py
 
 To run, first the "create_tables.py" needs to be run which creates the tables. The user and password needs to be updated. After, "etl.py" can be run, which fills the table with data with an etl-pipeline. 
